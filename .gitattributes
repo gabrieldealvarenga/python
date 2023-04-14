@@ -1,2 +1,162 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#hello word 
+# print('hello word')
+
+#exercicio 1
+#  nome = input('qual o seu nome ?')
+#                 print('ola',nome,'prazer em te conhecer!')
+
+#xercicio 2
+#nome = input('qual o seu nome ?')
+#salario = input('quanto é o seu salario ?')
+#print('nome do funcionario',nome)
+#print('salario :',salario)
+
+#exercicio 3 
+#y = int(input('digite um numero :'))
+#x = int(input('digite um numero :'))
+#xy = x + y 
+#print('a soma entre {} e {} é igual a {}'.format(x,y,xy))
+
+#exercicios 4
+
+#n1 = float(input('digite um valor:'))
+#zn2 = float(input('digite um valor:'))
+
+#media = n1 + n2 / 2 
+
+#print('sua media :',media)
+
+#exercicio 5 
+
+#sucessor e antecessor
+
+#n = int(input('digite um numero  :'))
+
+#ant = n - 1
+#suc = n + 1
+
+#print('seu antecessor :',ant,'seu sucessor :',suc)
+
+#exercicio 6
+
+#leia um número real e mostre na tela o seu dobro e a 
+#sua terça parte.
+
+#n = float(input('digite um numero :'))
+
+#d = n * 2 
+#n3 = n / 3 
+
+#print('seu dobro vale :',d)
+#print('sua terça parte vale :',n3)
+
+#exercicio 7
+
+#Desenvolva um programa que leia uma distância em metros e mostre os valores 
+#relativos em outras medidas.
+
+#n = float(input('digite uma distância em metros :'))
+
+#cm = n * 100
+#km = n / 1000
+#mm = n * 1000
+
+#print(n,'metros correspodem a :',cm,'cm')
+#print(n,'metros correspodem a :',km,'km')
+#print(n,'metros correspodem a :',mm,'mm')
+
+#exercicio 8
+
+#Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) 
+#e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45(considerar como 5,20, atual de 2023).
+
+#r = float(input('quanto dinheiro você tem na carteira ?'))
+
+#d = r / 5.20
+
+#print('você pode comprar' ,d,'dólares com os seus' ,r,'reais que você possue')
+
+#exercicio 8,print com .format
+
+#valores de variaveis,float e input 
+
+#r = float(input('quanto dinheiro você tem na carteira ?'))
+
+#d = r / 5.20
+
+#litando casa de cimal do dolar em duas casas
+
+#d_formato = '{:.2f}'.format(d)
+
+#print 
+#print('você pode comprar US${} dólares com os seus R${} reais que você possue'.format(d_formato,r))
+
+#9
+
+#Faça um algoritmo que leia a largura e altura de uma parede, calcule e 
+#mostre a área a ser pintada e a quantidade de tinta necessária para o serviço, 
+#sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+
+#l = float(input('qual a largura da sua parede ?'))
+#a = float(input('qual a altura da sua parede  ?'))
+
+#area = l * a 
+
+#area_formato = '{:.2f}'.format(area)
+
+#tinta = area / 2 
+
+#tinta_formato = '{:.2f}'.format(tinta)
+
+#print('sua parede mede {}m² e para pintala você ira precisar de {}L de tinta'.format(area,tinta))
+
+#10
+
+#salario = int(input('Parabens você recebeu um aumento de 15%,digite o valor do seu salario :'))
+
+#a_salario = int(salario + salario * 0.15)
+
+
+#print('Com o seu aumento você começara a receber R${} reais de salario.'.format(a_salario))
+
+#11
+
+#qd_km = int(input('Quantos km o carro percorreu ?'))
+#qd_dias = int(input('Quantos dias ele ficou alugado ?'))
+
+#valor_km = qd_km * 0.20
+#valor_dias = qd_dias * 90
+
+#v_total = valor_km ++ valor_dias 
+
+#print('total a pagar :R${}'.format(v_total))
+
+
+
+
+
+#11Escreva um programa para calcular a redução do tempo de vida de um 
+#fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele 
+#já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule 
+#quantos dias de vida um fumante perderá e exiba o total em dias.
+
+#quantidade_c = float(input('quantos  cigarros você fuma por dia ?'))
+
+#quantidade_anos = float(input('a quanto anos você fuma ?'))
+
+#q_cigarros_min = quantidade_c * 10
+
+ 
+
+#temp_dias = temp_min / 60 
+
+
+
+#
+
+#usando import math(raiz quadrada)
+
+#import math 
+#num = int(input('digite um numero :'))
+#raiz = math.sqrt(num)
+#print('a raiz de {} é igual a {:.2f}'.format(num,raiz))
