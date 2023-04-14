@@ -1,1 +1,25 @@
+#calculadora simples
 
+print('|calculadora|')
+
+
+
+
+numero1 = int(input('digite um numero :'))
+operacao = str(input('digite uma operação :'))
+numero2 = int(input('digite um numero :'))
+
+if operacao == '+' :
+    resultado = numero1 + numero2 
+elif operacao == '-':
+    resultado = numero1 - numero2
+elif operacao == '/':
+    resultado = numero1 / numero2     
+elif operacao == '*':
+    resultado = numero1 * numero2    
+elif operacao == '**':
+    resultado = numero1 * numero2   
+else:
+    resultado = 'operação invalida'
+
+print (str(numero1) + ' ' + str(operacao) + ' ' + str(numero2) + ' = '  + str(resultado))
