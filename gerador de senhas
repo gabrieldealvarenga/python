@@ -1,0 +1,32 @@
+#importando as bibliotecas
+
+
+import random
+import string
+import pyperclip   
+
+
+#definindo função para gerar as senhas 
+
+
+def gerar_senha(comprimento, usar_caracteres_especiais=True):
+    caracteres = string.ascii_letters + string.digits
+    if usar_caracteres_especiais:
+        caracteres += string.punctuation
+    senha = ''.join(random.choice(caracteres) for _ in range(comprimento))
+    return senha
+
+
+comprimento_senha = 12  # Defina o comprimento da senha desejada
+senha = gerar_senha(comprimento_senha)
+print("Senha gerada:", senha)
+
+# Opcional: copiar a senha para a área de transferência
+pyperclip.copy(senha)
+print("Senha copiada para a área de transferência.")
+
+
+
+
+
+
