@@ -1,160 +1,145 @@
-#hello word 
-# print('hello word')
+exercicio 1
 
-#exercicio 1
-#  nome = input('qual o seu nome ?')
-#                 print('ola',nome,'prazer em te conhecer!')
+ nome = input('qual o seu nome ?')
+        print('ola',nome,'prazer em te conhecer!')
 
-#xercicio 2
-#nome = input('qual o seu nome ?')
-#salario = input('quanto é o seu salario ?')
-#print('nome do funcionario',nome)
-#print('salario :',salario)
+   
+exercicio 2
 
-#exercicio 3 
-#y = int(input('digite um numero :'))
-#x = int(input('digite um numero :'))
-#xy = x + y 
-#print('a soma entre {} e {} é igual a {}'.format(x,y,xy))
+nome = input('qual o seu nome ?')
+salario = input('quanto é o seu salario ?')
+print('nome do funcionario',nome)
+print('salario :',salario)
 
-#exercicios 4
+exercicio 3 
 
-#n1 = float(input('digite um valor:'))
-#zn2 = float(input('digite um valor:'))
+y = int(input('digite um numero :'))
+x = int(input('digite um numero :'))
+xy = x + y 
+print('a soma entre {} e {} é igual a {}'.format(x,y,xy))
 
-#media = n1 + n2 / 2 
+exercicios 4
 
-#print('sua media :',media)
+n1 = float(input('digite um valor:'))
+zn2 = float(input('digite um valor:'))
 
-#exercicio 5 
+media = n1 + n2 / 2 
 
-#sucessor e antecessor
+print('sua media :',media)
 
-#n = int(input('digite um numero  :'))
+exercicio 5 
 
-#ant = n - 1
-#suc = n + 1
+sucessor e antecessor
 
-#print('seu antecessor :',ant,'seu sucessor :',suc)
+n = int(input('digite um numero  :'))
 
-#exercicio 6
+ant = n - 1
+suc = n + 1
 
-#leia um número real e mostre na tela o seu dobro e a 
-#sua terça parte.
+print('seu antecessor :',ant,'seu sucessor :',suc)
 
-#n = float(input('digite um numero :'))
+exercicio 6
 
-#d = n * 2 
-#n3 = n / 3 
+leia um número real e mostre na tela o seu dobro e a 
+sua terça parte.
 
-#print('seu dobro vale :',d)
-#print('sua terça parte vale :',n3)
+n = float(input('digite um numero :'))
 
-#exercicio 7
+d = n * 2 
+n3 = n / 3 
 
-#Desenvolva um programa que leia uma distância em metros e mostre os valores 
-#relativos em outras medidas.
+print('seu dobro vale :',d)
+print('sua terça parte vale :',n3)
 
-#n = float(input('digite uma distância em metros :'))
+exercicio 7
 
-#cm = n * 100
-#km = n / 1000
-#mm = n * 1000
+Desenvolva um programa que leia uma distância em metros e mostre os valores 
+relativos em outras medidas.
 
-#print(n,'metros correspodem a :',cm,'cm')
-#print(n,'metros correspodem a :',km,'km')
-#print(n,'metros correspodem a :',mm,'mm')
+n = float(input('digite uma distância em metros :'))
 
-#exercicio 8
+cm = n * 100
+km = n / 1000
+mm = n * 1000
 
-#Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) 
-#e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45(considerar como 5,20, atual de 2023).
+print(n,'metros correspodem a :',cm,'cm')
+print(n,'metros correspodem a :',km,'km')
+print(n,'metros correspodem a :',mm,'mm')
 
-#r = float(input('quanto dinheiro você tem na carteira ?'))
+exercicio 8
 
-#d = r / 5.20
+Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) 
+e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45(considerar como 5,20, atual de 2023).
 
-#print('você pode comprar' ,d,'dólares com os seus' ,r,'reais que você possue')
+r = float(input('quanto dinheiro você tem na carteira ?'))
 
-#exercicio 8,print com .format
+d = r / 5.20
 
-#valores de variaveis,float e input 
+print('você pode comprar' ,d,'dólares com os seus' ,r,'reais que você possue')
 
-#r = float(input('quanto dinheiro você tem na carteira ?'))
+exercicio 8,print com .format
 
-#d = r / 5.20
+valores de variaveis,float e input 
 
-#litando casa de cimal do dolar em duas casas
+r = float(input('quanto dinheiro você tem na carteira ?'))
 
-#d_formato = '{:.2f}'.format(d)
+d = r / 5.20
 
-#print 
-#print('você pode comprar US${} dólares com os seus R${} reais que você possue'.format(d_formato,r))
+litando casa de cimal do dolar em duas casas
 
-#9
+d_formato = '{:.2f}'.format(d)
+
+print 
+print('você pode comprar US${} dólares com os seus R${} reais que você possue'.format(d_formato,r))
+
+9
 
 #Faça um algoritmo que leia a largura e altura de uma parede, calcule e 
 #mostre a área a ser pintada e a quantidade de tinta necessária para o serviço, 
 #sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
 
-#l = float(input('qual a largura da sua parede ?'))
-#a = float(input('qual a altura da sua parede  ?'))
+l = float(input('qual a largura da sua parede ?'))
+a = float(input('qual a altura da sua parede  ?'))
 
-#area = l * a 
+area = l * a 
 
-#area_formato = '{:.2f}'.format(area)
+area_formato = '{:.2f}'.format(area)
 
-#tinta = area / 2 
+tinta = area / 2 
 
-#tinta_formato = '{:.2f}'.format(tinta)
+tinta_formato = '{:.2f}'.format(tinta)
 
-#print('sua parede mede {}m² e para pintala você ira precisar de {}L de tinta'.format(area,tinta))
+print('sua parede mede {}m² e para pintala você ira precisar de {}L de tinta'.format(area,tinta))
 
-#10
+10
 
-#salario = int(input('Parabens você recebeu um aumento de 15%,digite o valor do seu salario :'))
+salario = int(input('Parabens você recebeu um aumento de 15%,digite o valor do seu salario :'))
 
-#a_salario = int(salario + salario * 0.15)
+a_salario = int(salario + salario * 0.15)
 
 
-#print('Com o seu aumento você começara a receber R${} reais de salario.'.format(a_salario))
+print('Com o seu aumento você começara a receber R${} reais de salario.'.format(a_salario))
 
 #11
 
-#qd_km = int(input('Quantos km o carro percorreu ?'))
-#qd_dias = int(input('Quantos dias ele ficou alugado ?'))
+qd_km = int(input('Quantos km o carro percorreu ?'))
+qd_dias = int(input('Quantos dias ele ficou alugado ?'))
 
-#valor_km = qd_km * 0.20
-#valor_dias = qd_dias * 90
+valor_km = qd_km * 0.20
+valor_dias = qd_dias * 90
 
-#v_total = valor_km ++ valor_dias 
+v_total = valor_km ++ valor_dias 
 
-#print('total a pagar :R${}'.format(v_total))
-
-
+print('total a pagar :R${}'.format(v_total))
 
 
 
-#11Escreva um programa para calcular a redução do tempo de vida de um 
-#fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele 
-#já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule 
-#quantos dias de vida um fumante perderá e exiba o total em dias.
-
-#quantidade_c = float(input('quantos  cigarros você fuma por dia ?'))
-
-#quantidade_anos = float(input('a quanto anos você fuma ?'))
-
-#q_cigarros_min = quantidade_c * 10
-
- 
-
-#temp_dias = temp_min / 60 
 
 
 
-#
 
-#usando import math(raiz quadrada)
+
+
 
 #import math 
 #num = int(input('digite um numero :'))
