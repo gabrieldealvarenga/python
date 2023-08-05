@@ -6,35 +6,47 @@ Cidade/Estado: Mogi das Cruzes,São Paulo
 CEP:08717210
 E-mail:gabrieldealvarenga6@gmail.com
 Telefone:11947212710
+
 Objetivo Profissional:
 Busco uma oportunidade de estágio em programação, onde possa aplicar meus conhecimentos em desenvolvimento de software e aprender com profissionais experientes na área.
 
 Formação Acadêmica:
 
-Curso: Engenharia de Software - Universidade de Mogi das Cruzes - 2023 / 2027
+Incompleto : Design de Jogos - Multipla 
+
+Cursando : Engenharia de Software - Universidade de Mogi das Cruzes - 2023 / 2027
+
 Habilidades Técnicas:
 
-Linguagens de Programação: Python,CSS
-Ferramentas e Tecnologias: [listar frameworks, bibliotecas, sistemas operacionais, etc. que você utiliza]
-Banco de Dados: [se tiver conhecimento em alguma tecnologia de banco de dados]
-Outras habilidades relevantes: [exemplos: controle de versão (Git), metodologias ágeis, etc.]
+Linguagens de Programação: Python,Html,CSS,Java
+
+Ferramentas e Tecnologias:Flash Player,Unity,Docker,Git,GitHub,VScode,Pycharm,Linux,Windons
+
+Banco de Dados: SQL
+
 Projetos Acadêmicos e Pessoais:
 
-Descreva brevemente os projetos de programação que você desenvolveu durante sua formação acadêmica ou por conta própria. Inclua os objetivos, tecnologias utilizadas e resultados alcançados.
-Experiência Profissional:
-Caso tenha alguma experiência anterior, mesmo que não seja na área de programação, inclua aqui.
+Jogo de Barco : Quando comecei a cursar design de jogos meu primeiro projeto foi um jogo de barco 2d usando java feito no Flashplayer,
+usei  sprites prontos de barcos,da aguá do jogo e outros e os modifiquei um por um,programei a barra de vida,colisão,itens que apareciam no meio do jogo;
+como vida e munição para o barco.Infelizmente não tenho mais os arquivos do jogo. 
 
-Nome da Empresa - Cargo - Período (mês/ano de início - mês/ano de término)
-Descrição das responsabilidades e conquistas relevantes na posição.
+Relógio : Agora no meu segundo semestre fiz um projeto simples de um relógio com python, usando o tkinter e a função strftime.
+Link do projeto :https://github.com/gabrieldealvarenga/python/blob/main/relógio
+
+Calculadora : Projeto de um calculadora simples sem interface, nela você tem a opção de somar,subtrair,multiplicar,dividir e fazer exponenciação.
+Link do projeto : https://github.com/gabrieldealvarenga/python/blob/main/calculadora%20(sem%20tela)
+
 Idiomas:
 
-[Idioma] - [Nível de Proficiência]
+Inglês - Intermediario
 
 Cursos e Certificações:
 
-[Nome do Curso/Certificação] - Instituição - Ano de Conclusão
-Atividades Extracurriculares:
+Python - Fundação Bradesco 
 
+BDD - Fundação Bradesco
+
+Lógica de Programação - Fundação Bradesco
 
 Habilidades Interpessoais:
 
